@@ -4,7 +4,7 @@ require("dotenv").config()
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
 const morgan = require('morgan')
-
+const cors = require("cors")
 // Database connection
 const connectDB = require("./services/database")
 
@@ -18,6 +18,7 @@ const notFound = require('./middleware/notFound')
 const errorHandler = require('./middleware/errorHandler')
 
 app.use(express.json())
+app.use(cors())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(cookieParser())
 app.use(morgan("tiny"))
