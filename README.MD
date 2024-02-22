@@ -5,6 +5,37 @@
 4. export DATABASE_URL= "mongodb://127.0.0.1:27017/e-coomerce"
 5. npm start
 
+# Added All scenario 
+1.         Setup:
+
+•           Use Node.js and a framework of their choice (Express.js is commonly used).
+•           Set up a basic project structure.
+
+2.         Database:
+•           Use a simple database (SQL(MY SQL, MSSQL, Postgres),MongoDB, etc.)
+•          Create a schema for an item with properties like id, name, description, etc.
+
+3.         Endpoints:
+•           Implement CRUD operations for items (Create, Read, Update, Delete).
+•           Use appropriate HTTP methods (POST, GET, PUT, DELETE).
+•           Create routes for listing all items, getting a specific item by ID, adding a new item, updating an existing item, and deleting an item.
+
+4.         Validation:
+•           Implement basic input validation for creating and updating items.
+•           Ensure that required fields are present, and data types are correct.
+
+5.         Middleware:
+•           Use middleware for logging requests.
+•           Implement error handling middleware.
+
+6.         Protecting Routes:
+•           Secure the routes for creating, updating, and deleting books. Only authenticated users should have access.
+
+7.         Token-Based Authentication
+•           Consider using token-based authentication (JWT) for enhancing security.
+
+8.           Documentation:
+•           Assess the clarity and completeness of API documentation.
 
 # Dependencies
 # Node.js Project
